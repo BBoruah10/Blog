@@ -25,5 +25,5 @@ export const persistor = persistStore(store);
 // user: userReducer,
 //},
 //reducer:persistReducer,
-//middleware:{}
+
 //});
