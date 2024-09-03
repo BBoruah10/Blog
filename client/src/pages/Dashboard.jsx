@@ -1,7 +1,7 @@
-import React, { Profiler, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { DashSidebar } from "../components/DashSidebar";
-import { DashProfile } from "../components/DashProfile";
+import DashProfile from "../components/DashProfile";
 
 const Dashboard = () => {
   const location = useLocation(); //current location
